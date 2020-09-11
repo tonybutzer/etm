@@ -2,7 +2,7 @@ Image=tbutzer/etm_docker_image
 
 publish:
 	#git remote set-url origin git@github.com:tonybutzer/etops.git
-	git remote set-url origin https://github.com/tonybutzer/etops.git
+	git remote set-url origin https://github.com/tonybutzer/etm.git
 	git config --global user.email tonybutzer@gmail.com
 	git config --global user.name tonybutzer
 	git config --global push.default simple
