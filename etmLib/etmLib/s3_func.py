@@ -1,11 +1,17 @@
+import os
 import boto3
 
 def s3_hello(person_name):
     print('Hello There Person:', person_name)
 
-
 def s3_push_delete_local(local_file, bucket, bucket_filepath):
-    print('def s3_push_delete_local(local_file, bucket, bucket_filepath):')
+        s3 = boto3.client('s3')
+        with open(local_file, "rb") as f:
+            if 'vsis3' in bucket:
+                bucket = bucket.split('/')[-1]
+                print(bucket, bucket_filepath)
+            s3.upload_fileobj(f, bucket, bucket_filepath)
+        os.remove(local_file)
 
 def return_s3_list(working_bucket, prefix):
         aws_list = []

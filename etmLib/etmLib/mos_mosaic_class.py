@@ -2,6 +2,8 @@ from .log_logger import log_make_logger
 from .log_logger import s3_save_log_file
 from .s3_func import s3_list_pseudo_subdirs
 from .s3_func import return_s3_list
+from .xr_mosaic_func import xr_build_mosaic_ds
+from .xr_mosaic_func import xr_write_geotiff_from_ds
 
 class Mos_mosaic:
 
@@ -65,8 +67,8 @@ class Mos_mosaic:
             print(tif_peers)
             product = target_product
             bucket = self.bucket
-            ds = xr_build_mosaic_ds(bucket, product, peer_tifs)
+            ds = xr_build_mosaic_ds(bucket, product, tif_peers)
             primary_name = tif_peers[0]
-            xr_write_geotiff_from_ds(primary_name, self.out_prefix_path)
+            xr_write_geotiff_from_ds(ds, primary_name, self.out_prefix_path)
 
         
