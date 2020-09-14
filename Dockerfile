@@ -1,6 +1,6 @@
 FROM python
 
-ENV VERS=1.0
+ENV VERS=1.1
 
 RUN apt-get update && \
 	apt-get install -y vim
@@ -20,19 +20,22 @@ RUN \
 	pip install --no-cache pika && \
 	pip install --no-cache dash && \
 	pip install --no-cache boto3 && \
-	pip install --no-cache fiona
+	pip install --no-cache fiona && \
+	pip install --no-cache xarray && \
+	pip install --no-cache rioxarray 
+	
 
 
-ENV GREG_VERS=1.1
-RUN mkdir -p /home/eto 
+ENV TONY_VERS=1.2
+RUN mkdir -p /home/etm 
 
-COPY etoLib /home/eto/etoLib
-COPY api_eto /home/eto/api_eto
+COPY etmLib /home/etm/etmLib
+COPY api_etm /home/etm/api_etm
 
-RUN (cd /home/eto/etoLib; make)
+RUN (cd /home/etm/etmLib; make)
 
 # Certificate Hell Fix!
 RUN apt-get install ca-certificates && mkdir -p /etc/pki/tls/certs && \
 	cp /etc/ssl/certs/ca-certificates.crt /etc/pki/tls/certs/ca-bundle.crt
 
-WORKDIR /home/eto/api_eto
+WORKDIR /home/etm/api_etm
