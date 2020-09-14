@@ -26,7 +26,7 @@ RUN \
 	
 
 
-ENV TONY_VERS=1.2
+ENV TONY_VERS=1.3
 RUN mkdir -p /home/etm 
 
 COPY etmLib /home/etm/etmLib
