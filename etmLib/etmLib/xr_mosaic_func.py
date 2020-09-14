@@ -29,12 +29,13 @@ def xr_write_geotiff_from_ds(DS, primary_name, out_prefix_path):
 
     a = primary_name.split('/')
     just_tif = a[-2] + '/' + a[-1]
+    local_tif = a[-1]
+    local_cog = 'COG_' + local_tif
 
     output = out_prefix_path + just_tif
     bucket = 'dev-et-data'
     print(f'OUTPUT=={output}')
-    DS.rio.to_raster('a.tif')
-    cog_create_from_tif('a.tif', 'b_cog.tif')
-    local_file='b_cog.tif'
-    s3_push_delete_local(local_file, bucket, output)
-    os.remove('a.tif')
+    DS.rio.to_raster(local_tif)
+    cog_create_from_tif(local_tif, local_cog)
+    s3_push_delete_local(local_cog, bucket, output)
+    os.remove(local_tif)

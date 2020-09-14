@@ -54,17 +54,17 @@ class Mos_mosaic:
         sub_sub_sub = subfolders[0] + target_year + '/'
         self.log.info(f'sub is {sub_sub_sub}')
         all_tifs = return_s3_list(self.bucket, sub_sub_sub)
-        print(all_tifs)
+        #print(all_tifs)
 
         target_product = self.products[0] + '_'
         for (tif,sz) in all_tifs:
             if target_product in tif:
-                print(tif)
+                #print(tif)
                 target_tifs.append(tif)
 
         for tif in target_tifs:
             tif_peers = self._return_peers(tif, subfolders)
-            print(tif_peers)
+            #print(tif_peers)
             product = target_product
             bucket = self.bucket
             ds = xr_build_mosaic_ds(bucket, product, tif_peers)
