@@ -21,12 +21,13 @@ RUN \
 	pip install --no-cache dash && \
 	pip install --no-cache boto3 && \
 	pip install --no-cache fiona && \
+	pip install --no-cache rio-cogeo && \
 	pip install --no-cache xarray && \
 	pip install --no-cache rioxarray 
 	
 
 
-ENV TONY_VERS=1.3
+ENV TONY_VERS=1.4
 RUN mkdir -p /home/etm 
 
 COPY etmLib /home/etm/etmLib

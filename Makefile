@@ -1,5 +1,7 @@
 Image=tbutzer/etm_docker_image
 
+hello:
+	echo hello - did you mean make build instead or make publish
 publish:
 	#git remote set-url origin git@github.com:tonybutzer/etops.git
 	git remote set-url origin https://github.com/tonybutzer/etm.git
