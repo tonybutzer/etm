@@ -4,15 +4,15 @@ from etmLib.log_logger import log_make_logger
 
 from etmLib.s3_func import s3_hello
 
-from etmLib.util_func import unique
-from etmLib.util_func import grepfxn
+from etmLib.mos_mosaic_class import Mos_mosaic
 
 def get_parser():
     parser = argparse.ArgumentParser(description='Run the eto code')
-    parser.add_argument('tile', metavar='TILE', type=str, nargs='*',
-            help='the tile to process - example: 40N-80E')
-    parser.add_argument('-c', '--configdir', help='specify and alternate config_dict dir example: -c sample_config ', default='./sample_config', type=str)
-    parser.add_argument('-o', '--optimize', help='optimize caching on ', default='yes', type=str)
+    parser.add_argument('products', metavar='products', type=str, nargs='*',
+            help='the products (netet, etasw ...)  to process - example: etasw netet')
+    parser.add_argument('-y', '--year', help='specify year or Annual example: -y 1999 ', default='Annual', type=str)
+    parser.add_argument('-i', '--in', help='input prefix_path = out/DelawareRiverBasin/Run09_13_2020/'  , default='out/wip', type=str)
+    parser.add_argument('-o', '--out', help='out_prefix_path = enduser/DelawareRiverBasin/Run09_13_2020/ward_sandford_customer/' , default='enduser/wip', type=str)
     return parser
 
 
@@ -20,18 +20,14 @@ def command_line_runner():
     parser = get_parser()
     args = vars(parser.parse_args())
 
-    if args['configdir']:
-        print("configdir", args['configdir'])
+    products = args['products']
+    print(products)
 
-    optimize = False
-    opt = args['optimize']
+    if args['in']:
+        print("out", args['in'])
+    if args['out']:
+        print("out", args['out'])
 
-    config_directory = args['configdir']
-
-    log.info('USing configdir {}'.format(config_directory))
-
-    log.info('this is just a starter kit for our cmdline api for eto - Help Greg!')
-    log.info('or logging agents and logging backends ... docker deployments')
 
     # RUN the class Veget
     #myveg = VegET(config_directory, tile, shp, optimize)
@@ -40,6 +36,14 @@ def command_line_runner():
     log.info('this is how you call one of your functions')
 
     s3_hello('Greg')
+
+    bucket = 'dev-et-data'
+    prefix_path = args['in']
+    year = args['year']
+    out_prefix_path = args['out']
+
+    mos = Mos_mosaic(bucket, prefix_path, year, out_prefix_path, products)
+    mos.run_mosaic()
 
 
 if __name__ == '__main__':
