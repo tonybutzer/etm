@@ -28,7 +28,8 @@ RUN \
 
 
 ENV TONY_VERS=1.4
-RUN mkdir -p /home/etm 
+RUN mkdir -p /home/etm \
+	&& mkdir -p /home/etm/api_etm/log
 
 COPY etmLib /home/etm/etmLib
 COPY api_etm /home/etm/api_etm
