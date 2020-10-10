@@ -27,14 +27,9 @@ RUN \
 	
 
 
-<<<<<<< HEAD
-ENV TONY_VERS=1.5
-RUN mkdir -p /home/etm 
-=======
 ENV TONY_VERS=1.4
 RUN mkdir -p /home/etm \
 	&& mkdir -p /home/etm/api_etm/log
->>>>>>> 9c64f0095b47ae0727b176d7b51b5a193db4d163
 
 COPY etmLib /home/etm/etmLib
 COPY api_etm /home/etm/api_etm
