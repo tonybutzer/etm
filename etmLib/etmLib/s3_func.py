@@ -30,6 +30,8 @@ def s3_list_pseudo_subdirs(bucket, prefix_with_slash):
     subfolder_list = []
     #Make sure you provide / in the end
     prefix = prefix_with_slash 
+    
+    print('prefix_with_slash', prefix_with_slash)
 
     client = boto3.client('s3')
     result = client.list_objects(Bucket=bucket, Prefix=prefix, Delimiter='/')

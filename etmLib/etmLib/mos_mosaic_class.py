@@ -5,6 +5,17 @@ from .s3_func import return_s3_list
 from .xr_mosaic_func import xr_build_mosaic_ds
 from .xr_mosaic_func import xr_write_geotiff_from_ds
 
+def _return_list_of_years(subfolders):
+    THE_YEAR_LIST = []
+    for path in subfolders:
+        #print(path)
+        the_year = path.split('/')[-2]
+        #print(the_year)
+        if 'aaalog' not in the_year:
+            THE_YEAR_LIST.append(the_year)
+    return THE_YEAR_LIST
+
+
 class Mos_mosaic:
 
     def __init__(self, bucket, prefix_path, year, out_prefix_path, products):
@@ -29,26 +40,8 @@ class Mos_mosaic:
         
         return(peers)
 
-    def run_mosaic(self):
-        self.log.info("run_mosaic")
-        for prod in self.products:
-            self.log.info(f'Mosaic this product: {prod}')
 
-        if not self.prefix_path.endswith('/'):
-            prefix_with_slash = self.prefix_path + '/'
-        else:
-            prefix_with_slash = self.prefix_path
-        self.log.info(prefix_with_slash)
-        subfolders = s3_list_pseudo_subdirs(self.bucket, prefix_with_slash)
-        for folder in subfolders:
-            print(folder)
-        sub_sub = subfolders[0]
-        years_list = s3_list_pseudo_subdirs(self.bucket, sub_sub)
-        for year in years_list:
-            print(year)
-
-        target_year = self.year
-        self.log.info(f'target year is {target_year}')
+    def _do_one_year(self, target_year, subfolders):
 
         target_tifs = []
         sub_sub_sub = subfolders[0] + target_year + '/'
@@ -70,5 +63,37 @@ class Mos_mosaic:
             ds = xr_build_mosaic_ds(bucket, product, tif_peers)
             primary_name = tif_peers[0]
             xr_write_geotiff_from_ds(ds, primary_name, self.out_prefix_path)
+
+    def run_mosaic(self):
+        self.log.info("run_mosaic")
+        for prod in self.products:
+            self.log.info(f'Mosaic this product: {prod}')
+
+        if not self.prefix_path.endswith('/'):
+            prefix_with_slash = self.prefix_path + '/'
+        else:
+            prefix_with_slash = self.prefix_path
+        self.log.info(prefix_with_slash)
+        subfolders = s3_list_pseudo_subdirs(self.bucket, prefix_with_slash)
+        for folder in subfolders:
+            print(folder)
+        sub_sub = subfolders[0]
+        years_list = s3_list_pseudo_subdirs(self.bucket, sub_sub)
+        for year in years_list:
+            print(year)
+
+        target_year = self.year
+        self.log.info(f'target year is {target_year}')
+
+        if 'all' in target_year:
+            self.log.info('DOING ALL THE YEARS')
+            years = _return_list_of_years(years_list)
+            for year in years:
+                print(year)
+                target_year=year
+                self._do_one_year(target_year,subfolders)
+        else:
+            self._do_one_year(target_year,subfolders)
+
 
         
