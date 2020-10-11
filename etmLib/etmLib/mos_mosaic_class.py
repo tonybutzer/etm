@@ -1,3 +1,4 @@
+import re
 from .log_logger import log_make_logger
 from .log_logger import s3_save_log_file
 from .s3_func import s3_list_pseudo_subdirs
@@ -40,6 +41,36 @@ class Mos_mosaic:
         
         return(peers)
 
+    
+    def _do_one_year_monthly(self, target_year, subfolders):
+
+        target_tifs = []
+        sub_sub_sub = subfolders[0] + target_year + '/'
+        self.log.info(f'sub is {sub_sub_sub}')
+        all_tifs = return_s3_list(self.bucket, sub_sub_sub)
+        #print(all_tifs)
+
+        target_product = self.products[0] + '_'
+        # Just match the monthly sums -tony
+        expression = '.*' + str(target_year) + '[0-9][0-9].tif$'
+
+        for (tif,sz) in all_tifs:
+            if target_product in tif:
+                #print(tif)
+                #print(expression, tif)
+                match = re.match(expression, tif)
+                if match:
+                    target_tifs.append(tif)
+
+        for tif in target_tifs:
+            print(tif)
+            tif_peers = self._return_peers(tif, subfolders)
+            #print(tif_peers)
+            product = target_product
+            bucket = self.bucket
+            ds = xr_build_mosaic_ds(bucket, product, tif_peers)
+            primary_name = tif_peers[0]
+            xr_write_geotiff_from_ds(ds, primary_name, self.out_prefix_path)
 
     def _do_one_year(self, target_year, subfolders):
 
@@ -85,15 +116,23 @@ class Mos_mosaic:
         target_year = self.year
         self.log.info(f'target year is {target_year}')
 
-        if 'all' in target_year:
+        if 'monthly' in target_year:
             self.log.info('DOING ALL THE YEARS')
             years = _return_list_of_years(years_list)
             for year in years:
                 print(year)
                 target_year=year
-                self._do_one_year(target_year,subfolders)
+                self._do_one_year_monthly(target_year,subfolders)
         else:
-            self._do_one_year(target_year,subfolders)
+            if 'all' in target_year:
+                self.log.info('DOING ALL THE YEARS')
+                years = _return_list_of_years(years_list)
+                for year in years:
+                    print(year)
+                    target_year=year
+                    self._do_one_year(target_year,subfolders)
+            else:
+                self._do_one_year(target_year,subfolders)
 
 
         
