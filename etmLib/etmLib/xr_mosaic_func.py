@@ -1,4 +1,5 @@
 import os
+import sys
 from time import time
 import rasterio
 import xarray as xr
