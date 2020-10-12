@@ -41,6 +41,16 @@ class Mos_mosaic:
         
         return(peers)
 
+    def _do_year_range(self, target_year, subfolders):
+        a = target_year.split('_')
+        start_year = int(a[1])
+        end_year = int(a[2])
+        
+        for year in range(start_year, end_year+1):
+            print(year)
+            target_year=str(year)
+            self._do_one_year(target_year,subfolders)
+
     
     def _do_one_year_monthly(self, target_year, subfolders):
 
@@ -115,24 +125,27 @@ class Mos_mosaic:
 
         target_year = self.year
         self.log.info(f'target year is {target_year}')
-
-        if 'monthly' in target_year:
-            self.log.info('DOING ALL THE YEARS')
-            years = _return_list_of_years(years_list)
-            for year in years:
-                print(year)
-                target_year=year
-                self._do_one_year_monthly(target_year,subfolders)
+        if 'years_' in target_year:
+            self.log.info(f'DOING ALL THE YEARS {target_year}')
+            self._do_year_range(target_year,subfolders)
         else:
-            if 'all' in target_year:
+            if 'monthly' in target_year:
                 self.log.info('DOING ALL THE YEARS')
                 years = _return_list_of_years(years_list)
                 for year in years:
                     print(year)
                     target_year=year
-                    self._do_one_year(target_year,subfolders)
+                    self._do_one_year_monthly(target_year,subfolders)
             else:
-                self._do_one_year(target_year,subfolders)
+                if 'all' in target_year:
+                    self.log.info('DOING ALL THE YEARS')
+                    years = _return_list_of_years(years_list)
+                    for year in years:
+                        print(year)
+                        target_year=year
+                        self._do_one_year(target_year,subfolders)
+                else:
+                    self._do_one_year(target_year,subfolders)
 
 
         
