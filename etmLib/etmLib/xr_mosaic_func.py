@@ -1,5 +1,6 @@
 import os
 from time import time
+import rasterio
 import xarray as xr
 import rioxarray
 from .cog_func import cog_create_from_tif
