@@ -13,7 +13,7 @@ RUN \
 	
 
 
-ENV TONY_VERS=1.8
+ENV TONY_VERS=1.9
 RUN mkdir -p /home/etm \
 	&& mkdir -p /home/etm/api_etm/log
 
