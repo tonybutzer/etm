@@ -1,0 +1,751 @@
+2020-10-12 16:31:06,468 - ET_MOSAIC - INFO - Logging Begins
+2020-10-12 16:31:06,470 - ET_MOSAIC - INFO - this is how you call one of your functions
+2020-10-12 16:31:06,471 - Mos_mosaic - INFO - Logging Begins
+2020-10-12 16:31:06,471 - Mos_mosaic - INFO - dev-et-data out/DelawareRiverBasin/Run10_07_2020/ , ['netet', 'dummy']
+2020-10-12 16:31:06,472 - Mos_mosaic - INFO - run_mosaic
+2020-10-12 16:31:06,472 - Mos_mosaic - INFO - Mosaic this product: netet
+2020-10-12 16:31:06,472 - Mos_mosaic - INFO - Mosaic this product: dummy
+2020-10-12 16:31:06,473 - Mos_mosaic - INFO - out/DelawareRiverBasin/Run10_07_2020/
+2020-10-12 16:31:08,001 - Mos_mosaic - INFO - target year is years_2020_2029
+2020-10-12 16:31:08,001 - Mos_mosaic - INFO - DOING ALL THE YEARS years_2020_2029
+2020-10-12 16:31:08,001 - Mos_mosaic - INFO - sub is out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/
+['netet', 'dummy']
+out out/DelawareRiverBasin/Run10_07_2020/
+out enduser/DelawareRiverBasin/drb150/
+hello from Mos_mosaic class
+prefix_with_slash out/DelawareRiverBasin/Run10_07_2020/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/
+prefix_with_slash out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1950/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1951/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1952/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1953/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1954/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1955/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1956/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1957/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1958/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1959/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1960/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1961/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1962/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1963/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1964/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1965/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1966/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1967/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1968/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1969/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1970/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1971/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1972/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1973/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1974/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1975/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1976/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1977/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1978/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1979/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1980/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1981/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1982/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1983/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1984/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1985/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1986/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1987/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1988/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1989/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1990/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1991/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1992/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1993/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1994/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1995/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1996/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1997/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1998/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/1999/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2000/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2001/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2002/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2003/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2004/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2005/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2006/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2007/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2008/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2009/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2010/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2011/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2012/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2013/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2014/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2015/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2016/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2017/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2018/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2019/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2021/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2022/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2023/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2024/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2025/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2026/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2027/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2028/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2029/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2030/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2031/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2032/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2033/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2034/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2035/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2036/2020-10-12 16:31:11,837 - Mos_mosaic - INFO - dev-et-data/out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020001.tif, ['out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/']
+Reading input: /home/etm/api_etm/netet_2020001.tif
+Adding overviews...
+Updating dataset tags...
+Writing output to: /home/etm/api_etm/COG_netet_2020001.tif
+/usr/local/lib/python3.8/site-packages/pyproj/crs/crs.py:280: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(projparams)
+2020-10-12 16:31:52,470 - Mos_mosaic - INFO - dev-et-data/out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020002.tif, ['out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/']
+
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2037/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2038/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2039/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2040/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2041/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2042/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2043/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2044/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2045/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2046/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2047/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2048/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2049/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2050/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2051/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2052/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2053/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2054/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2055/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2056/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2057/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2058/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2059/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2060/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2061/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2062/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2063/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2064/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2065/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2066/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2067/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2068/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2069/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2070/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2071/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2072/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2073/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2074/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2075/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2076/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2077/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2078/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2079/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2080/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2081/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2082/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2083/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2084/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2085/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2086/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2087/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2088/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2089/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2090/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2091/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2092/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2093/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2094/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2095/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2096/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2097/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2098/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2099/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/Annual/
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/aaalog/
+2020
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020001.tif 1.9517135620117188
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/2020/netet_2020001.tif 3.814915657043457
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/2020/netet_2020001.tif 5.623070478439331
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/2020/netet_2020001.tif 7.448748588562012
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/2020/netet_2020001.tif 9.676928043365479
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/2020/netet_2020001.tif 11.657812118530273
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/2020/netet_2020001.tif 13.578010559082031
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/2020/netet_2020001.tif 15.505271434783936
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/2020/netet_2020001.tif 17.566084146499634
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/2020/netet_2020001.tif 19.499248504638672
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/2020/netet_2020001.tif 21.481433629989624
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/2020/netet_2020001.tif 23.522683143615723
+<xarray.Dataset>
+Dimensions:  (x: 1966, y: 2139)
+Coordinates:
+  * x        (x) float64 -76.79 -76.79 -76.78 -76.78 ... -72.71 -72.7 -72.7
+  * y        (y) float64 38.36 38.36 38.37 38.37 38.37 ... 42.8 42.8 42.81 42.81
+Data variables:
+    netet_   (y, x) float64 0.0 0.0 0.0 0.0 0.0 0.0 ... 0.0 0.0 0.0 0.0 0.0 0.0
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020001.tif
+enduser/DelawareRiverBasin/drb150/
+OUTPUT==enduser/DelawareRiverBasin/drb150/2020/netet_2020001.tif
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020002.tif 1.9775381088256836
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/2020/netet_2020002.tif 3.9662835597991943
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/2020/netet_2020002.tif 6.0216968059539795
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/2020/netet_2020002.tif 8.028204679489136
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/2020/netet_2020002.tif 10.048295497894287
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/2020/netet_2020002.tif 11.98270058631897
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/2020/netet_2020002.tif 13.905815601348877
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/2020/netet_2020002.tif 15.781982660293579
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/2020/netet_2020002.tifReading input: /home/etm/api_etm/netet_2020002.tif
+Adding overviews...
+Updating dataset tags...
+Writing output to: /home/etm/api_etm/COG_netet_2020002.tif
+/usr/local/lib/python3.8/site-packages/pyproj/crs/crs.py:280: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(projparams)
+2020-10-12 16:32:32,269 - Mos_mosaic - INFO - dev-et-data/out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020003.tif, ['out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/']
+Reading input: /home/etm/api_etm/netet_2020003.tif
+Adding overviews...
+Updating dataset tags...
+Writing output to: /home/etm/api_etm/COG_netet_2020003.tif
+/usr/local/lib/python3.8/site-packages/pyproj/crs/crs.py:280: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(projparams)
+2020-10-12 16:33:11,225 - Mos_mosaic - INFO - dev-et-data/out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020004.tif, ['out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/']
+Reading input: /home/etm/api_etm/netet_2020004.tif
+Adding overviews...
+Updating dataset tags...
+Writing output to: /home/etm/api_etm/COG_netet_2020004.tif
+/usr/local/lib/python3.8/site-packages/pyproj/crs/crs.py:280: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(projparams)
+2020-10-12 16:33:49,515 - Mos_mosaic - INFO - dev-et-data/out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020005.tif, ['out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/']
+Reading input: /home/etm/api_etm/netet_2020005.tif
+Adding overviews...
+Updating dataset tags...
+Writing output to: /home/etm/api_etm/COG_netet_2020005.tif
+/usr/local/lib/python3.8/site-packages/pyproj/crs/crs.py:280: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(projparams)
+2020-10-12 16:34:26,831 - Mos_mosaic - INFO - dev-et-data/out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020006.tif, ['out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/']
+ 17.669553995132446
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/2020/netet_2020002.tif 19.591946601867676
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/2020/netet_2020002.tif 21.496978998184204
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/2020/netet_2020002.tif 23.433383464813232
+<xarray.Dataset>
+Dimensions:  (x: 1966, y: 2139)
+Coordinates:
+  * x        (x) float64 -76.79 -76.79 -76.78 -76.78 ... -72.71 -72.7 -72.7
+  * y        (y) float64 38.36 38.36 38.37 38.37 38.37 ... 42.8 42.8 42.81 42.81
+Data variables:
+    netet_   (y, x) float64 0.0 0.0 0.0 0.0 0.0 0.0 ... 0.0 0.0 0.0 0.0 0.0 0.0
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020002.tif
+enduser/DelawareRiverBasin/drb150/
+OUTPUT==enduser/DelawareRiverBasin/drb150/2020/netet_2020002.tif
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020003.tif 1.8939757347106934
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/2020/netet_2020003.tif 3.767085075378418
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/2020/netet_2020003.tif 5.610379695892334
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/2020/netet_2020003.tif 7.617968559265137
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/2020/netet_2020003.tif 9.55039095878601
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/2020/netet_2020003.tif 11.442347764968872
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/2020/netet_2020003.tif 13.266622066497803
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/2020/netet_2020003.tif 15.134692668914795
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/2020/netet_2020003.tif 17.127002954483032
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/2020/netet_2020003.tif 19.044989585876465
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/2020/netet_2020003.tif 20.891109704971313
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/2020/netet_2020003.tif 22.945528507232666
+<xarray.Dataset>
+Dimensions:  (x: 1966, y: 2139)
+Coordinates:
+  * x        (x) float64 -76.79 -76.79 -76.78 -76.78 ... -72.71 -72.7 -72.7
+  * y        (y) float64 38.36 38.36 38.37 38.37 38.37 ... 42.8 42.8 42.81 42.81
+Data variables:
+    netet_   (y, x) float64 0.0 0.0 0.0 0.0 0.0 0.0 ... 0.0 0.0 0.0 0.0 0.0 0.0
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020003.tif
+enduser/DelawareRiverBasin/drb150/
+OUTPUT==enduser/DelawareRiverBasin/drb150/2020/netet_2020003.tif
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020004.tif 2.0526976585388184
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/2020/netet_2020004.tif 3.980764627456665
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/2020/netet_2020004.tif 5.763024806976318
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/2020/netet_2020004.tif 7.577082633972168
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/2020/netet_2020004.tif 9.407780170440674
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/2020/netet_2020004.tif 11.270461320877075
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/2020/netet_2020004.tif 13.280280590057373
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/2020/netet_2020004.tif 15.212312936782837
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/2020/netet_2020004.tif 17.022454023361206
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/2020/netet_2020004.tif 18.91650390625
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/2020/netet_2020004.tif 20.830957174301147
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/2020/netet_2020004.tif 22.689672708511353
+<xarray.Dataset>
+Dimensions:  (x: 1966, y: 2139)
+Coordinates:
+  * x        (x) float64 -76.79 -76.79 -76.78 -76.78 ... -72.71 -72.7 -72.7
+  * y        (y) float64 38.36 38.36 38.37 38.37 38.37 ... 42.8 42.8 42.81 42.81
+Data variables:
+    netet_   (y, x) float64 0.0 0.0 0.0 0.0 0.0 0.0 ... 0.0 0.0 0.0 0.0 0.0 0.0
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020004.tif
+enduser/DelawareRiverBasin/drb150/
+OUTPUT==enduser/DelawareRiverBasin/drb150/2020/netet_2020004.tif
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020005.tif 2.128065824508667
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/2020/netet_2020005.tif 3.9662935733795166
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/2020/netet_2020005.tif 5.863049268722534
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/2020/netet_2020005.tif 7.7551000118255615
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/2020/netet_2020005.tif 9.673758506774902
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/2020/netet_2020005.tif 11.493595600128174
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/2020/netet_2020005.tif 13.32751202583313
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/2020/netet_2020005.tif 15.188247203826904
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/2020/netet_2020005.tif 17.054267406463623
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/2020/netet_2020005.tif 19.10326385498047
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/2020/netet_2020005.tif 21.123101234436035
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/2020/netet_2020005.tif 23.08215641975403
+<xarray.Dataset>
+Dimensions:  (x: 1966, y: 2139)
+Coordinates:
+  * x        (x) float64 -76.79 -76.79 -76.78 -76.78 ... -72.71 -72.7 -72.7
+  * y        (y) float64 38.36 38.36 38.37 38.37 38.37 ... 42.8 42.8 42.81 42.81
+Data variables:
+    netet_   (y, x) float64 0.0 0.0 0.0 0.0 0.0 0.0 ... 0.0 0.0 0.0 0.0 0.0 0.0
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020005.tif
+enduser/DelawareRiverBasin/drb150/
+OUTPUT==enduser/DelawareRiverBasin/drb150/2020/netet_2020005.tif
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020006.tif 1.9848263263702393
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/2020/netet_2020006.tif 3.8943798542022705
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/2020/netet_2020006.tif 5.645534992218018
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/2020/netet_2020006.tif 7.527015924453735
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/2020/netet_2020006.tif 9.30811071395874
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/2020/netet_2020006.tif 11.088180303573608
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/2020/netet_2020006.tif 12.89309811592102
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/2020/netet_2020006.tif 14.711774349212646
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/2020/netet_2020006.tif 16.521968126296997
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/2020/netet_2020006.tif 18.592790842056274
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/2020/netet_2020006.tif 20.504310846328735
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/2020/netet_2020006.tif 22.400882720947266
+<xarray.Dataset>
+Dimensions:  (x: 1966, y: 2139)
+Coordinates:
+  * x        (x) float64 -76.79 -76.79 -76.78 -76.78 ... -72.71 -72.7 -72.7
+  * y        (y) float64 38.36 38.36 38.37 38.37 38.37 ... 42.8 42.8 42.81 42.81
+Data variables:
+    netet_   (y, x) float64 0.0 0.0 0.0 0.0 0.0 0.0 ... 0.0 0.0 0.0 0.0 0.0 0.0Reading input: /home/etm/api_etm/netet_2020006.tif
+Adding overviews...
+Updating dataset tags...
+Writing output to: /home/etm/api_etm/COG_netet_2020006.tif
+/usr/local/lib/python3.8/site-packages/pyproj/crs/crs.py:280: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(projparams)
+2020-10-12 16:35:02,599 - Mos_mosaic - INFO - dev-et-data/out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020007.tif, ['out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/']
+Reading input: /home/etm/api_etm/netet_2020007.tif
+Adding overviews...
+Updating dataset tags...
+Writing output to: /home/etm/api_etm/COG_netet_2020007.tif
+/usr/local/lib/python3.8/site-packages/pyproj/crs/crs.py:280: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(projparams)
+2020-10-12 16:35:38,562 - Mos_mosaic - INFO - dev-et-data/out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020008.tif, ['out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/']
+Reading input: /home/etm/api_etm/netet_2020008.tif
+Adding overviews...
+Updating dataset tags...
+Writing output to: /home/etm/api_etm/COG_netet_2020008.tif
+/usr/local/lib/python3.8/site-packages/pyproj/crs/crs.py:280: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(projparams)
+2020-10-12 16:36:15,778 - Mos_mosaic - INFO - dev-et-data/out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020009.tif, ['out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/']
+Reading input: /home/etm/api_etm/netet_2020009.tif
+Adding overviews...
+Updating dataset tags...
+Writing output to: /home/etm/api_etm/COG_netet_2020009.tif
+/usr/local/lib/python3.8/site-packages/pyproj/crs/crs.py:280: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(projparams)
+2020-10-12 16:36:51,126 - Mos_mosaic - INFO - dev-et-data/out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_202001.tif, ['out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/']
+Reading input: /home/etm/api_etm/netet_202001.tif
+Adding overviews...
+Updating dataset tags...
+Writing output to: /home/etm/api_etm/COG_netet_202001.tif
+/usr/local/lib/python3.8/site-packages/pyproj/crs/crs.py:280: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(projparams)
+2020-10-12 16:37:25,879 - Mos_mosaic - INFO - dev-et-data/out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020010.tif, ['out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/']
+
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020006.tif
+enduser/DelawareRiverBasin/drb150/
+OUTPUT==enduser/DelawareRiverBasin/drb150/2020/netet_2020006.tif
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020007.tif 1.9163999557495117
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/2020/netet_2020007.tif 3.7929651737213135
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/2020/netet_2020007.tif 5.634701728820801
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/2020/netet_2020007.tif 7.481780052185059
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/2020/netet_2020007.tif 9.251124382019043
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/2020/netet_2020007.tif 10.9799485206604
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/2020/netet_2020007.tif 12.760202169418335
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/2020/netet_2020007.tif 14.572519302368164
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/2020/netet_2020007.tif 16.358144283294678
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/2020/netet_2020007.tif 18.152811288833618
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/2020/netet_2020007.tif 19.92992377281189
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/2020/netet_2020007.tif 21.756295919418335
+<xarray.Dataset>
+Dimensions:  (x: 1966, y: 2139)
+Coordinates:
+  * x        (x) float64 -76.79 -76.79 -76.78 -76.78 ... -72.71 -72.7 -72.7
+  * y        (y) float64 38.36 38.36 38.37 38.37 38.37 ... 42.8 42.8 42.81 42.81
+Data variables:
+    netet_   (y, x) float64 0.0 0.0 0.0 0.0 0.0 0.0 ... 0.0 0.0 0.0 0.0 0.0 0.0
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020007.tif
+enduser/DelawareRiverBasin/drb150/
+OUTPUT==enduser/DelawareRiverBasin/drb150/2020/netet_2020007.tif
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020008.tif 2.01906418800354
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/2020/netet_2020008.tif 3.9373371601104736
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/2020/netet_2020008.tif 5.746785402297974
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/2020/netet_2020008.tif 7.526717185974121
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/2020/netet_2020008.tif 9.356811046600342
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/2020/netet_2020008.tif 11.14069652557373
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/2020/netet_2020008.tif 12.891765594482422
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/2020/netet_2020008.tif 14.710072994232178
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/2020/netet_2020008.tif 16.547849655151367
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/2020/netet_2020008.tif 18.333864212036133
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/2020/netet_2020008.tif 20.171162128448486
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/2020/netet_2020008.tif 22.029932975769043
+<xarray.Dataset>
+Dimensions:  (x: 1966, y: 2139)
+Coordinates:
+  * x        (x) float64 -76.79 -76.79 -76.78 -76.78 ... -72.71 -72.7 -72.7
+  * y        (y) float64 38.36 38.36 38.37 38.37 38.37 ... 42.8 42.8 42.81 42.81
+Data variables:
+    netet_   (y, x) float64 0.0 0.0 0.0 0.0 0.0 0.0 ... 0.0 0.0 0.0 0.0 0.0 0.0
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020008.tif
+enduser/DelawareRiverBasin/drb150/
+OUTPUT==enduser/DelawareRiverBasin/drb150/2020/netet_2020008.tif
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020009.tif 2.1126506328582764
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/2020/netet_2020009.tif 3.942405939102173
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/2020/netet_2020009.tif 5.795395135879517
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/2020/netet_2020009.tif 7.69987154006958
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/2020/netet_2020009.tif 9.552635908126831
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/2020/netet_2020009.tif 11.397529602050781
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/2020/netet_2020009.tif 13.132808208465576
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/2020/netet_2020009.tif 14.916382074356079
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/2020/netet_2020009.tif 16.7801775932312
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/2020/netet_2020009.tif 18.656354427337646
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/2020/netet_2020009.tif 20.498833894729614
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/2020/netet_2020009.tif 22.45778751373291
+<xarray.Dataset>
+Dimensions:  (x: 1966, y: 2139)
+Coordinates:
+  * x        (x) float64 -76.79 -76.79 -76.78 -76.78 ... -72.71 -72.7 -72.7
+  * y        (y) float64 38.36 38.36 38.37 38.37 38.37 ... 42.8 42.8 42.81 42.81
+Data variables:
+    netet_   (y, x) float64 0.0 0.0 0.0 0.0 0.0 0.0 ... 0.0 0.0 0.0 0.0 0.0 0.0
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020009.tif
+enduser/DelawareRiverBasin/drb150/
+OUTPUT==enduser/DelawareRiverBasin/drb150/2020/netet_2020009.tif
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_202001.tif 1.9234111309051514
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/2020/netet_202001.tif 3.715590238571167
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/2020/netet_202001.tif 5.531702995300293
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/2020/netet_202001.tif 7.40076470375061
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/2020/netet_202001.tif 9.22643494606018
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/2020/netet_202001.tif 11.140734195709229
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/2020/netet_202001.tif 12.999347448348999
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/2020/netet_202001.tif 14.88684606552124
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/2020/netet_202001.tif 16.702943801879883
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/2020/netet_202001.tif 18.757161617279053
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/2020/netet_202001.tif 20.734889268875122
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/2020/netet_202001.tif 22.583028078079224
+<xarray.Dataset>
+Dimensions:  (x: 1966, y: 2139)
+Coordinates:
+  * x        (x) float64 -76.79 -76.79 -76.78 -76.78 ... -72.71 -72.7 -72.7
+  * y        (y) float64 38.36 38.36 38.37 38.37 38.37 ... 42.8 42.8 42.81 42.81
+Data variables:
+    netet_   (y, x) float64 0.0 0.0 0.0 0.0 0.0 0.0 ... 0.0 0.0 0.0 0.0 0.0 0.0
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_202001.tif
+enduser/DelawareRiverBasin/drb150/
+OUTPUT==enduser/DelawareRiverBasin/drb150/2020/netet_202001.tif
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020010.tif 2.1378731727600098
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/2020/netet_2020010.tif 4.396017074584961
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/2020/netet_2020010.tif 6.389192342758179
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/2020/netet_2020010.tifReading input: /home/etm/api_etm/netet_2020010.tif
+Adding overviews...
+Updating dataset tags...
+Writing output to: /home/etm/api_etm/COG_netet_2020010.tif
+/usr/local/lib/python3.8/site-packages/pyproj/crs/crs.py:280: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(projparams)
+2020-10-12 16:38:02,352 - Mos_mosaic - INFO - dev-et-data/out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020011.tif, ['out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/']
+Reading input: /home/etm/api_etm/netet_2020011.tif
+Adding overviews...
+Updating dataset tags...
+Writing output to: /home/etm/api_etm/COG_netet_2020011.tif
+/usr/local/lib/python3.8/site-packages/pyproj/crs/crs.py:280: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(projparams)
+2020-10-12 16:38:35,568 - Mos_mosaic - INFO - dev-et-data/out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020012.tif, ['out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/']
+Reading input: /home/etm/api_etm/netet_2020012.tif
+Adding overviews...
+Updating dataset tags...
+Writing output to: /home/etm/api_etm/COG_netet_2020012.tif
+/usr/local/lib/python3.8/site-packages/pyproj/crs/crs.py:280: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(projparams)
+2020-10-12 16:39:10,236 - Mos_mosaic - INFO - dev-et-data/out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020013.tif, ['out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/']
+Reading input: /home/etm/api_etm/netet_2020013.tif
+Adding overviews...
+Updating dataset tags...
+Writing output to: /home/etm/api_etm/COG_netet_2020013.tif
+/usr/local/lib/python3.8/site-packages/pyproj/crs/crs.py:280: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(projparams)
+2020-10-12 16:39:42,070 - Mos_mosaic - INFO - dev-et-data/out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020014.tif, ['out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/']
+ 8.326811790466309
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/2020/netet_2020010.tif 10.201473712921143
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/2020/netet_2020010.tif 12.206501007080078
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/2020/netet_2020010.tif 14.176497220993042
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/2020/netet_2020010.tif 16.114257097244263
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/2020/netet_2020010.tif 17.966890335083008
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/2020/netet_2020010.tif 19.810290575027466
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/2020/netet_2020010.tif 21.6847825050354
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/2020/netet_2020010.tif 23.528498888015747
+<xarray.Dataset>
+Dimensions:  (x: 1966, y: 2139)
+Coordinates:
+  * x        (x) float64 -76.79 -76.79 -76.78 -76.78 ... -72.71 -72.7 -72.7
+  * y        (y) float64 38.36 38.36 38.37 38.37 38.37 ... 42.8 42.8 42.81 42.81
+Data variables:
+    netet_   (y, x) float64 0.0 0.0 0.0 0.0 0.0 0.0 ... 0.0 0.0 0.0 0.0 0.0 0.0
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020010.tif
+enduser/DelawareRiverBasin/drb150/
+OUTPUT==enduser/DelawareRiverBasin/drb150/2020/netet_2020010.tif
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020011.tif 2.201765537261963
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/2020/netet_2020011.tif 4.100741386413574
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/2020/netet_2020011.tif 5.9544267654418945
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/2020/netet_2020011.tif 7.904195070266724
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/2020/netet_2020011.tif 9.801492691040039
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/2020/netet_2020011.tif 11.644779443740845
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/2020/netet_2020011.tif 13.538742065429688
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/2020/netet_2020011.tif 15.423317909240723
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/2020/netet_2020011.tif 17.249398708343506
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/2020/netet_2020011.tif 19.128291368484497
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/2020/netet_2020011.tif 21.000097513198853
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/2020/netet_2020011.tif 23.01406741142273
+<xarray.Dataset>
+Dimensions:  (x: 1966, y: 2139)
+Coordinates:
+  * x        (x) float64 -76.79 -76.79 -76.78 -76.78 ... -72.71 -72.7 -72.7
+  * y        (y) float64 38.36 38.36 38.37 38.37 38.37 ... 42.8 42.8 42.81 42.81
+Data variables:
+    netet_   (y, x) float64 0.0 0.0 0.0 0.0 0.0 0.0 ... 0.0 0.0 0.0 0.0 0.0 0.0
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020011.tif
+enduser/DelawareRiverBasin/drb150/
+OUTPUT==enduser/DelawareRiverBasin/drb150/2020/netet_2020011.tif
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020012.tif 2.0633912086486816
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/2020/netet_2020012.tif 3.869873046875
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/2020/netet_2020012.tif 5.797668218612671
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/2020/netet_2020012.tif 7.660888910293579
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/2020/netet_2020012.tif 9.459330558776855
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/2020/netet_2020012.tif 11.454149007797241
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/2020/netet_2020012.tif 13.278578758239746
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/2020/netet_2020012.tif 15.056816101074219
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/2020/netet_2020012.tif 16.898731231689453
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/2020/netet_2020012.tif 18.834938526153564
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/2020/netet_2020012.tif 20.699856281280518
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/2020/netet_2020012.tif 22.658236503601074
+<xarray.Dataset>
+Dimensions:  (x: 1966, y: 2139)
+Coordinates:
+  * x        (x) float64 -76.79 -76.79 -76.78 -76.78 ... -72.71 -72.7 -72.7
+  * y        (y) float64 38.36 38.36 38.37 38.37 38.37 ... 42.8 42.8 42.81 42.81
+Data variables:
+    netet_   (y, x) float64 0.0 0.0 0.0 0.0 0.0 0.0 ... 0.0 0.0 0.0 0.0 0.0 0.0
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020012.tif
+enduser/DelawareRiverBasin/drb150/
+OUTPUT==enduser/DelawareRiverBasin/drb150/2020/netet_2020012.tif
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020013.tif 2.109653949737549
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/2020/netet_2020013.tif 4.0132386684417725
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/2020/netet_2020013.tif 5.917688369750977
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/2020/netet_2020013.tif 7.851273059844971
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/2020/netet_2020013.tif 9.662002086639404
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/2020/netet_2020013.tif 11.366198301315308
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/2020/netet_2020013.tif 13.119219303131104
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/2020/netet_2020013.tif 15.077974557876587
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/2020/netet_2020013.tif 17.002430200576782
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/2020/netet_2020013.tif 18.776041507720947
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/2020/netet_2020013.tif 20.568509817123413
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/2020/netet_2020013.tif 22.381458044052124
+<xarray.Dataset>
+Dimensions:  (x: 1966, y: 2139)
+Coordinates:
+  * x        (x) float64 -76.79 -76.79 -76.78 -76.78 ... -72.71 -72.7 -72.7
+  * y        (y) float64 38.36 38.36 38.37 38.37 38.37 ... 42.8 42.8 42.81 42.81
+Data variables:
+    netet_   (y, x) float64 0.0 0.0 0.0 0.0 0.0 0.0 ... 0.0 0.0 0.0 0.0 0.0 0.0
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020013.tif
+enduser/DelawareRiverBasin/drb150/
+OUTPUT==enduser/DelawareRiverBasin/drb150/2020/netet_2020013.tif
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020014.tif 2.2720038890838623
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/2020/netet_2020014.tif 4.016326665878296
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/2020/netet_2020014.tif 5.9706549644470215
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/2020/netet_2020014.tif 7.895641326904297
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/2020/netet_2020014.tif 9.61794924736023
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/2020/netet_2020014.tif 11.400175094604492
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/2020/netet_2020014.tif 13.53414797782898
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/2020/netet_2020014.tif 15.370505094528198
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/2020/netet_2020014.tifReading input: /home/etm/api_etm/netet_2020014.tif
+Adding overviews...
+Updating dataset tags...
+Writing output to: /home/etm/api_etm/COG_netet_2020014.tif
+/usr/local/lib/python3.8/site-packages/pyproj/crs/crs.py:280: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(projparams)
+2020-10-12 16:40:16,196 - Mos_mosaic - INFO - dev-et-data/out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020015.tif, ['out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/']
+Reading input: /home/etm/api_etm/netet_2020015.tif
+Adding overviews...
+Updating dataset tags...
+Writing output to: /home/etm/api_etm/COG_netet_2020015.tif
+/usr/local/lib/python3.8/site-packages/pyproj/crs/crs.py:280: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(projparams)
+2020-10-12 16:40:48,511 - Mos_mosaic - INFO - dev-et-data/out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020016.tif, ['out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/']
+Reading input: /home/etm/api_etm/netet_2020016.tif
+Adding overviews...
+Updating dataset tags...
+Writing output to: /home/etm/api_etm/COG_netet_2020016.tif
+/usr/local/lib/python3.8/site-packages/pyproj/crs/crs.py:280: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(projparams)
+2020-10-12 16:41:21,315 - Mos_mosaic - INFO - dev-et-data/out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020017.tif, ['out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/']
+Reading input: /home/etm/api_etm/netet_2020017.tif
+Adding overviews...
+Updating dataset tags...
+Writing output to: /home/etm/api_etm/COG_netet_2020017.tif
+/usr/local/lib/python3.8/site-packages/pyproj/crs/crs.py:280: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(projparams)
+2020-10-12 16:41:59,114 - Mos_mosaic - INFO - dev-et-data/out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020018.tif, ['out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/']
+ 17.228716135025024
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/2020/netet_2020014.tif 19.021394729614258
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/2020/netet_2020014.tif 21.024770498275757
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/2020/netet_2020014.tif 22.855274200439453
+<xarray.Dataset>
+Dimensions:  (x: 1966, y: 2139)
+Coordinates:
+  * x        (x) float64 -76.79 -76.79 -76.78 -76.78 ... -72.71 -72.7 -72.7
+  * y        (y) float64 38.36 38.36 38.37 38.37 38.37 ... 42.8 42.8 42.81 42.81
+Data variables:
+    netet_   (y, x) float64 0.0 0.0 0.0 0.0 0.0 0.0 ... 0.0 0.0 0.0 0.0 0.0 0.0
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020014.tif
+enduser/DelawareRiverBasin/drb150/
+OUTPUT==enduser/DelawareRiverBasin/drb150/2020/netet_2020014.tif
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020015.tif 1.936835765838623
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/2020/netet_2020015.tif 3.764317274093628
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/2020/netet_2020015.tif 5.63219952583313
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/2020/netet_2020015.tif 7.511603355407715
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/2020/netet_2020015.tif 9.36856484413147
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/2020/netet_2020015.tif 11.245274782180786
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/2020/netet_2020015.tif 13.12133264541626
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/2020/netet_2020015.tif 14.88279676437378
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/2020/netet_2020015.tif 16.816293954849243
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/2020/netet_2020015.tif 18.678739309310913
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/2020/netet_2020015.tif 20.461910486221313
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/2020/netet_2020015.tif 22.32908034324646
+<xarray.Dataset>
+Dimensions:  (x: 1966, y: 2139)
+Coordinates:
+  * x        (x) float64 -76.79 -76.79 -76.78 -76.78 ... -72.71 -72.7 -72.7
+  * y        (y) float64 38.36 38.36 38.37 38.37 38.37 ... 42.8 42.8 42.81 42.81
+Data variables:
+    netet_   (y, x) float64 0.0 0.0 0.0 0.0 0.0 0.0 ... 0.0 0.0 0.0 0.0 0.0 0.0
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020015.tif
+enduser/DelawareRiverBasin/drb150/
+OUTPUT==enduser/DelawareRiverBasin/drb150/2020/netet_2020015.tif
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020016.tif 2.298182249069214
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/2020/netet_2020016.tif 4.2524449825286865
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/2020/netet_2020016.tif 6.0852415561676025
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/2020/netet_2020016.tif 7.962920665740967
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/2020/netet_2020016.tif 9.89441204071045
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/2020/netet_2020016.tif 11.790475130081177
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/2020/netet_2020016.tif 13.639371156692505
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/2020/netet_2020016.tif 15.462671756744385
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/2020/netet_2020016.tif 17.311195850372314
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/2020/netet_2020016.tif 19.28555130958557
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/2020/netet_2020016.tif 21.064115524291992
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/2020/netet_2020016.tif 23.036978006362915
+<xarray.Dataset>
+Dimensions:  (x: 1966, y: 2139)
+Coordinates:
+  * x        (x) float64 -76.79 -76.79 -76.78 -76.78 ... -72.71 -72.7 -72.7
+  * y        (y) float64 38.36 38.36 38.37 38.37 38.37 ... 42.8 42.8 42.81 42.81
+Data variables:
+    netet_   (y, x) float64 0.0 0.0 0.0 0.0 0.0 0.0 ... 0.0 0.0 0.0 0.0 0.0 0.0
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020016.tif
+enduser/DelawareRiverBasin/drb150/
+OUTPUT==enduser/DelawareRiverBasin/drb150/2020/netet_2020016.tif
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020017.tif 2.931546926498413
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/2020/netet_2020017.tif 5.4260945320129395
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/2020/netet_2020017.tif 7.360916614532471
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/2020/netet_2020017.tif 9.392731666564941
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/2020/netet_2020017.tif 11.332695484161377
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/2020/netet_2020017.tif 13.35181188583374
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/2020/netet_2020017.tif 15.227118968963623
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/2020/netet_2020017.tif 17.110377311706543
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/2020/netet_2020017.tif 19.274858951568604
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/2020/netet_2020017.tif 21.3622989654541
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/2020/netet_2020017.tif 23.55600357055664
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/2020/netet_2020017.tif 25.96758246421814
+<xarray.Dataset>
+Dimensions:  (x: 1966, y: 2139)
+Coordinates:
+  * x        (x) float64 -76.79 -76.79 -76.78 -76.78 ... -72.71 -72.7 -72.7
+  * y        (y) float64 38.36 38.36 38.37 38.37 38.37 ... 42.8 42.8 42.81 42.81
+Data variables:
+    netet_   (y, x) float64 0.0 0.0 0.0 0.0 0.0 0.0 ... 0.0 0.0 0.0 0.0 0.0 0.0
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020017.tif
+enduser/DelawareRiverBasin/drb150/
+OUTPUT==enduser/DelawareRiverBasin/drb150/2020/netet_2020017.tif
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020018.tif 2.0083770751953125
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/2020/netet_2020018.tif 3.8732075691223145
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/2020/netet_2020018.tif 5.800152778625488
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/2020/netet_2020018.tif 7.647179126739502
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/2020/netet_2020018.tif 9.486570835113525
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/2020/netet_2020018.tif 11.310823202133179
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/2020/netet_2020018.tif 13.200589418411255
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/2020/netet_2020018.tif 15.045273065567017
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/2020/netet_2020018.tif 16.84135389328003
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/2020/netet_2020018.tif 18.620591640472412
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/2020/netet_2020018.tif 20.550588607788086
+out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/2020/netet_2020018.tif 22.733187437057495
+<xarray.Dataset>
+Dimensions:  (x: 1966, y: 2139)
+Coordinates:
+  * x        (x) float64 -76.79 -76.79 -76.78 -76.78 ... -72.71 -72.7 -72.7
+  * y        (y) float64 38.36 38.36 38.37 38.37 38.37 ... 42.8 42.8 42.81 42.81
+Data variables:
+    netet_   (y, x) float64 0.0 0.0 0.0 0.0 0.0 0.0 ... 0.0 0.0 0.0 0.0 0.0 0.0Reading input: /home/etm/api_etm/netet_2020018.tif
+Adding overviews...
+Updating dataset tags...
+Writing output to: /home/etm/api_etm/COG_netet_2020018.tif
+/usr/local/lib/python3.8/site-packages/pyproj/crs/crs.py:280: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(projparams)
+2020-10-12 16:42:34,443 - Mos_mosaic - INFO - dev-et-data/out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020019.tif, ['out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/']
+Reading input: /home/etm/api_etm/netet_2020019.tif
+Adding overviews...
+Updating dataset tags...
+Writing output to: /home/etm/api_etm/COG_netet_2020019.tif
+/usr/local/lib/python3.8/site-packages/pyproj/crs/crs.py:280: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(projparams)
+2020-10-12 16:43:10,249 - Mos_mosaic - INFO - dev-et-data/out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_202002.tif, ['out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/']
+Reading input: /home/etm/api_etm/netet_202002.tif
+Adding overviews...
+Updating dataset tags...
+Writing output to: /home/etm/api_etm/COG_netet_202002.tif
+/usr/local/lib/python3.8/site-packages/pyproj/crs/crs.py:280: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(projparams)
+2020-10-12 16:43:46,221 - Mos_mosaic - INFO - dev-et-data/out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020020.tif, ['out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/']
+Reading input: /home/etm/api_etm/netet_2020020.tif
+Adding overviews...
+Updating dataset tags...
+Writing output to: /home/etm/api_etm/COG_netet_2020020.tif
+/usr/local/lib/python3.8/site-packages/pyproj/crs/crs.py:280: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  projstring = _prepare_from_string(projparams)
+2020-10-12 16:44:22,872 - Mos_mosaic - INFO - dev-et-data/out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/2020/netet_2020021.tif, ['out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip39.84N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip41.33N-76.79E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-73.72E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-74.74E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-75.77E_o/', 'out/DelawareRiverBasin/Run10_07_2020/run_drb150_funrun_chip42.81N-76.79E_o/']

@@ -19,7 +19,7 @@ def build_docker_run_bash(in1, out, start_year, end_year, product):
 
                 image_custom = 'etm_docker_image'
                 image = 'tbutzer/' + image_custom
-                cmd = 'docker run -i python3 api_etm.py -i {} -o {} -y {} {} dummy'.format(in1, out, year_range, product)
+                cmd = 'docker run -i {} python3 api_etm.py -i {} -o {} -y {} {} dummy'.format(image, in1, out, year_range, product)
                 print(cmd)
                 logname="etm1" + year_range
 
