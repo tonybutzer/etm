@@ -1,6 +1,7 @@
 import os
 import sys
 from time import time
+from time import sleep
 import rasterio
 import xarray as xr
 import rioxarray
@@ -18,7 +19,7 @@ def _xr_open_rasterio_retry(s3_file_name):
                         print('oops',cnt)
                         print('oops',s3_file_name)
                         cnt = cnt - 1
-                        time.sleep(4)
+                        sleep(4)
 
 
 def xr_build_mosaic_ds(bucket ,product, tifs):
