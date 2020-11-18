@@ -2,7 +2,7 @@
 '''
 Steffi's List
 
-his is the list of outputs of the VegET model (Oct 2020) sorted by importance:
+this is the list of outputs of the VegET model (Oct 2020) sorted by importance:
 
      
 
@@ -47,7 +47,7 @@ def build_docker_run_bash(in1, out, start_year, end_year, product):
             else:
                 print('else', year)
 
-        cmd_filename = 'product_cmd_runner_' + product + '.sh'
+        cmd_filename = './script/product_cmd_runner_' + product + '.sh'
         with open(cmd_filename, 'w') as f:
             for cmd in cmds:
                 print(cmd)
@@ -62,4 +62,14 @@ start_year = 1950
 end_year = 2099
 product='etasw'
 
-build_docker_run_bash(in1, out, start_year, end_year, product)
+#Eta (Etasw)
+#Surface Runoff (SRF)
+#Deep drainage (DD)
+#netet (netet)
+#crop eta (etc)
+#final soil water (SWf)
+
+products = ['etasw', 'srf', 'dd', 'netet', 'etc', 'swf']
+
+for product in products:
+    build_docker_run_bash(in1, out, start_year, end_year, product)
