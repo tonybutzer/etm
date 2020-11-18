@@ -1,10 +1,24 @@
 
 '''
+Steffi's List
 
-docker run -i tbutzer/etm_docker_image python3 api_etm.py -i out/DelawareRiverBasin/Run10_07_2020/ -o enduser/DelawareRiverBasin/drb150/ -y years_1964_1970 etasw netet &
-docker run -i tbutzer/etm_docker_image python3 api_etm.py -i out/DelawareRiverBasin/Run10_07_2020/ -o enduser/DelawareRiverBasin/drb150/ -y years_1971_1980 etasw netet &
-docker run -i tbutzer/etm_docker_image python3 api_etm.py -i out/DelawareRiverBasin/Run10_07_2020/ -o enduser/DelawareRiverBasin/drb150/ -y years_1981_1990 etasw netet &
-docker run -i tbutzer/etm_docker_image python3 api_etm.py -i out/DelawareRiverBasin/Run10_07_2020/ -o enduser/DelawareRiverBasin/drb150/ -y years_1991_2000 etasw netet &
+his is the list of outputs of the VegET model (Oct 2020) sorted by importance:
+
+     
+
+
+        
+        Eta (Etasw)
+            Surface Runoff (SRF)
+                Deep drainage (DD)
+                    netet (netet)
+                        crop eta (etc)
+                            final soil water (SWf)
+                                Snowpack (SNWpk)
+                                    Rain
+                                        snow water equivalent (SWE)
+                                            snow melt (snow_melt)
+                                                initial soil water (SWi)
 '''
 
 def build_docker_run_bash(in1, out, start_year, end_year, product):
@@ -42,10 +56,10 @@ def build_docker_run_bash(in1, out, start_year, end_year, product):
 
 print("hello from bash creator")
 
-in1='out/DelawareRiverBasin/Run10_07_2020/'
-out='enduser/DelawareRiverBasin/drb150/'
+in1='out/DelawareRiverBasin/Run11_11_2020/'
+out='enduser/DelawareRiverBasin/drb150_nofunswitch/'
 start_year = 1950
 end_year = 2099
-product='netet'
+product='etasw'
 
 build_docker_run_bash(in1, out, start_year, end_year, product)

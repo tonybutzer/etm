@@ -1,0 +1,1 @@
+docker run -i tbutzer/etm_docker_image python3 api_etm.py -i out/DelawareRiverBasin/Run10_07_2020/ -o enduser/DelawareRiverBasin/drb150/ -y years_1957_1959 srf dummy  2>&1 | tee  ./log/etm1years_1957_1959&

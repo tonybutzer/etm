@@ -87,12 +87,15 @@ print("hello from bash creator")
 in1='out/DelawareRiverBasin/Run10_07_2020/'
 out='enduser/DelawareRiverBasin/drb150/'
 start_year = 1950
-end_year = 2099
-product='netet'
+end_year = 1980
+#product='netet'
+#product='dd'
+product='srf'
+#product='etc'
 
 chore_list = build_year_hash(out, start_year, end_year, product)
 print(chore_list)
-ranges = consecutive(chore_list, 5)
+ranges = consecutive(chore_list, 2)
 
 print(ranges)
 build_actual_bash_file(ranges)
