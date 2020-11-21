@@ -56,8 +56,8 @@ def build_docker_run_bash(in1, out, start_year, end_year, product):
 
 print("hello from bash creator")
 
-in1='out/DelawareRiverBasin/Run11_11_2020/'
-out='enduser/DelawareRiverBasin/drb150_nofunswitch/'
+in1='out/DelawareRiverBasin/Run11_17_2020/'
+out='enduser/DelawareRiverBasin/drb150_1117/'
 start_year = 1950
 end_year = 2099
 product='etasw'

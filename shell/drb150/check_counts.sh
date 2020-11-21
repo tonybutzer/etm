@@ -1,5 +1,6 @@
 #! /bin/bash
 
+#product=etasw
 product=dd
 
 
