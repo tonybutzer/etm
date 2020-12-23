@@ -3,9 +3,11 @@
 import time
 import docker
 import os
+import subprocess
+import re
 
-unmosaicked_input = 'out/DelawareRiverBasin/Run12_04_2020'
-enduser_cog_output = 'enduser/DelawareRiverBasin/drb150a/'
+unmosaicked_input = 'out/DelawareRiverBasin/Run11_11_2020'
+enduser_cog_output = 'enduser/DelawareRiverBasin/drb150b/'
 product='etasw'
 
 
@@ -36,8 +38,8 @@ running_containers = client.containers.list()
 for c in running_containers:
     print(c.name)
 
-def start_container(client, docker_image, docker_full_cmd):
-    container = client.containers.run(docker_image, docker_full_cmd, detach=True)
+def start_container(client, docker_image, docker_full_cmd, name):
+    container = client.containers.run(docker_image, docker_full_cmd, detach=True, name=name)
     print ( "CONTAINER is ", container.name)
     return(container)
 
@@ -53,7 +55,8 @@ def start_etm(year):
     #print(full_cmd)
     docker_image =  "tbutzer/etm_docker_image"
     #print(docker_image)
-    c = start_container(client, docker_image, full_cmd)
+    name = f'etm_{year}'
+    c = start_container(client, docker_image, full_cmd, name=name)
     print("real name is", c.name)
     print("==="*30)
 
@@ -79,14 +82,7 @@ def return_cpu_load():
 os.cpu_count()
 
 
-
-
-import subprocess
-import re
-
 def _return_mem_stat():
-
-
     # Memory usage
     total_ram = subprocess.run(['free', '-h'], stdout=subprocess.PIPE).stdout.decode('utf-8')
     used_free_shared_buf_avail = total_ram.split('\n')[1]
@@ -99,24 +95,12 @@ def return_available_memory():
     available_memory = a[3].split('G')[0]
     return float(available_memory)
 
-
-
-
 _return_mem_stat()
-
-
-
 
 available_memory = return_available_memory()
 available_memory
 
-
-
-
 os.getloadavg()
-
-
-
 
 def return_num_containers():
     global client
@@ -160,9 +144,4 @@ def event_loop(year_to_process, end_year):
 
 cyear = start_year + NUM_CONTAINERS + 1
 event_loop(cyear, end_year)
-
-
-
-
-
 
