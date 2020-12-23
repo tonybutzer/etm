@@ -5,10 +5,12 @@ import docker
 import os
 
 unmosaicked_input = 'out/DelawareRiverBasin/Run12_04_2020'
-enduser_cog_output = 'enduser/DelawareRiverBasin/drb150/'
-#year='1954'
+enduser_cog_output = 'enduser/DelawareRiverBasin/drb150a/'
 product='etasw'
-cmd_opt = '-i ' + unmosaicked_input + ' -o ' + enduser_cog_output + ' -y ' + year + ' ' + product + ' dummy'
+
+
+# year='1954'
+# cmd_opt = '-i ' + unmosaicked_input + ' -o ' + enduser_cog_output + ' -y ' + year + ' ' + product + ' dummy'
 
 NUM_CONTAINERS = 23 # 40 is too high, maybe 25
 
@@ -17,7 +19,7 @@ MIN_MEMORY_AVAILABLE = 4
 
 MAX_CONCURRENT_CONTAINERS = NUM_CONTAINERS
 
-start_year = 1950
+start_year = 2011
 #start_year = 2041
 end_year = 2099
 
