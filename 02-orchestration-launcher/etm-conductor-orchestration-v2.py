@@ -6,24 +6,28 @@ import os
 import subprocess
 import re
 
-unmosaicked_input = 'out/DelawareRiverBasin/Run11_11_2020'
-enduser_cog_output = 'enduser/DelawareRiverBasin/drb150b/'
-product='etasw'
+#unmosaicked_input = 'out/DelawareRiverBasin/Run12_24_2020'
+#unmosaicked_input = 'dev-et-data/out/DelawareRiverBasin/Run01_29_2021/run_r-15pct'
+unmosaicked_input = 'out/DelawareRiverBasin/Run01_29_2021_35/'
+enduser_cog_output = 'enduser/DelawareRiverBasin/drbdebug2/'
+product='netet'
 
 
 # year='1954'
 # cmd_opt = '-i ' + unmosaicked_input + ' -o ' + enduser_cog_output + ' -y ' + year + ' ' + product + ' dummy'
 
-NUM_CONTAINERS = 23 # 40 is too high, maybe 25
+# NUM_CONTAINERS = 23 # 40 is too high, maybe 25
+NUM_CONTAINERS = 1 # 40 is too high, maybe 25
 
 MAX_LOAD_LEVEL = 220
 MIN_MEMORY_AVAILABLE = 4
 
 MAX_CONCURRENT_CONTAINERS = NUM_CONTAINERS
 
-start_year = 2011
 #start_year = 2041
-end_year = 2099
+start_year = 1950
+#end_year = 2019
+end_year = 1950
 
 
 # # Next Steps
@@ -39,7 +43,8 @@ for c in running_containers:
     print(c.name)
 
 def start_container(client, docker_image, docker_full_cmd, name):
-    container = client.containers.run(docker_image, docker_full_cmd, detach=True, name=name)
+    container = client.containers.run(docker_image, docker_full_cmd, detach=True, auto_remove=True, name=name)
+    # container = client.containers.run(docker_image, docker_full_cmd, detach=True, name=name)
     print ( "CONTAINER is ", container.name)
     return(container)
 
@@ -55,7 +60,7 @@ def start_etm(year):
     #print(full_cmd)
     docker_image =  "tbutzer/etm_docker_image"
     #print(docker_image)
-    name = f'etm_{year}'
+    name = f'etmv1_{year}'
     c = start_container(client, docker_image, full_cmd, name=name)
     print("real name is", c.name)
     print("==="*30)
