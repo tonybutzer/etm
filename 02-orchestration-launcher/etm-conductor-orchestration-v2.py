@@ -9,15 +9,16 @@ import re
 #unmosaicked_input = 'out/DelawareRiverBasin/Run12_24_2020'
 #unmosaicked_input = 'dev-et-data/out/DelawareRiverBasin/Run01_29_2021/run_r-15pct'
 unmosaicked_input = 'out/DelawareRiverBasin/Run01_29_2021_35/'
-enduser_cog_output = 'enduser/DelawareRiverBasin/drbdebug2/'
-product='netet'
+enduser_cog_output = 'enduser/DelawareRiverBasin/r_01_29_2021_drb35pct/'
+#product='etasw'
+product='srf'
 
 
 # year='1954'
 # cmd_opt = '-i ' + unmosaicked_input + ' -o ' + enduser_cog_output + ' -y ' + year + ' ' + product + ' dummy'
 
-# NUM_CONTAINERS = 23 # 40 is too high, maybe 25
-NUM_CONTAINERS = 1 # 40 is too high, maybe 25
+NUM_CONTAINERS = 23 # 40 is too high, maybe 25
+# NUM_CONTAINERS = 1 # 40 is too high, maybe 25
 
 MAX_LOAD_LEVEL = 220
 MIN_MEMORY_AVAILABLE = 4
@@ -25,9 +26,9 @@ MIN_MEMORY_AVAILABLE = 4
 MAX_CONCURRENT_CONTAINERS = NUM_CONTAINERS
 
 #start_year = 2041
-start_year = 1950
-#end_year = 2019
-end_year = 1950
+start_year = 2000
+end_year = 2019
+#end_year = 1950
 
 
 # # Next Steps
@@ -109,7 +110,10 @@ os.getloadavg()
 
 def return_num_containers():
     global client
-    running_containers = client.containers.list()
+    try:
+        running_containers = client.containers.list()
+    except:
+        running_containers=[]
     return(len(running_containers))
 
 
@@ -124,7 +128,7 @@ def event_loop(year_to_process, end_year):
         mem_avail = return_available_memory()
         cpu_load = return_cpu_load()
         num_running_containers = return_num_containers()
-        print(mem_avail, cpu_load, num_running_containers)
+        print(f'mem={mem_avail}, cpu={cpu_load}, num_containers={num_running_containers}')
 
         cpu = False
         if (cpu_load < MAX_LOAD_LEVEL):
