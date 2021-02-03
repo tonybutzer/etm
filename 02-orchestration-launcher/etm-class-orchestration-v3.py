@@ -44,13 +44,13 @@ class Etm:
         with open(self.yml_file) as file:
             self.etm_parms = yaml.full_load(file)
 
-    def etm_runner(self):
+    def MAIN_etm_runner(self):
         products = self.etm_parms['products']
         start_year = self.etm_parms['start_year']
         end_year = self.etm_parms['end_year']
         for product in products:
             print(product)
-        self._event_loop(start_year, end_year, products[1])
+            self._event_loop(start_year, end_year, product)
 
     def _start_container(self, docker_image, docker_full_cmd, name):
         container = self.client.containers.run(docker_image, docker_full_cmd, detach=True, auto_remove=True, name=name)
@@ -123,10 +123,7 @@ class Etm:
 
 
 etm=Etm()
-products = etm.etm_parms['products']
-print(products)
 print(etm)
 
-etm.etm_runner()
+etm.MAIN_etm_runner()
 
-print(etm._return_num_containers())
