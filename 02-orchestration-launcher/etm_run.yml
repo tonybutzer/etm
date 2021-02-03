@@ -1,4 +1,5 @@
-products: ['etasw','srf','dd','netet']
+# products: ['etasw','srf','dd','netet']
+products: ['srf','dd','netet']
 start_year: 1950
 end_year: 2019
 

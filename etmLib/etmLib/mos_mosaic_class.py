@@ -104,6 +104,7 @@ class Mos_mosaic:
             ds = xr_build_mosaic_ds(bucket, product, tif_peers)
             primary_name = tif_peers[0]
             xr_write_geotiff_from_ds(ds, primary_name, self.out_prefix_path)
+            print("wrote: ",primary_name, self.out_prefix_path)
 
     def run_mosaic(self):
         self.log.info("run_mosaic")

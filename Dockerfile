@@ -7,7 +7,7 @@ RUN apt-get update && \
 
 # What do we really need here - should prune this Greg
 RUN \
-	pip install --no-cache rio-cogeo && \
+	pip install --no-cache "rio-cogeo==2.0.1" && \
 	pip install --no-cache xarray && \
 	pip install --no-cache rioxarray 
 	
