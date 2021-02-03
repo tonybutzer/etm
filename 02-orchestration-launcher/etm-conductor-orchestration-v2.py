@@ -8,16 +8,19 @@ import re
 
 #unmosaicked_input = 'out/DelawareRiverBasin/Run12_24_2020'
 #unmosaicked_input = 'dev-et-data/out/DelawareRiverBasin/Run01_29_2021/run_r-15pct'
-unmosaicked_input = 'out/DelawareRiverBasin/Run01_29_2021_35/'
-enduser_cog_output = 'enduser/DelawareRiverBasin/r_01_29_2021_drb35pct/'
+unmosaicked_input = 'out/DelawareRiverBasin/Run02_01_2021/'
+enduser_cog_output = 'enduser/DelawareRiverBasin/r_02_01_2021_drb15pct/'
 #product='etasw'
-product='srf'
+#product='srf'
+#product='dd'
+#product='netet'
+product='etasw'
 
 
 # year='1954'
 # cmd_opt = '-i ' + unmosaicked_input + ' -o ' + enduser_cog_output + ' -y ' + year + ' ' + product + ' dummy'
 
-NUM_CONTAINERS = 23 # 40 is too high, maybe 25
+NUM_CONTAINERS = 36 # 40 is too high, maybe 25
 # NUM_CONTAINERS = 1 # 40 is too high, maybe 25
 
 MAX_LOAD_LEVEL = 220
@@ -26,7 +29,7 @@ MIN_MEMORY_AVAILABLE = 4
 MAX_CONCURRENT_CONTAINERS = NUM_CONTAINERS
 
 #start_year = 2041
-start_year = 2000
+start_year = 1950
 end_year = 2019
 #end_year = 1950
 
