@@ -69,7 +69,7 @@ class Etm:
         #print(full_cmd)
         docker_image =  "tbutzer/etm_docker_image"
         #print(docker_image)
-        name_c = f'etmv1_{year}'
+        name_c = f'etmv1_{year}_{product}'
         c = self._start_container(docker_image, full_cmd, name_c)
         print("real name is", c.name, product)
         print("==="*30)
@@ -87,11 +87,12 @@ class Etm:
         MAX_LOAD_LEVEL = self.etm_parms['max_cpu_percent']
         MIN_MEMORY_AVAILABLE =  self.etm_parms['min_memory_available']
         MAX_CONCURRENT_CONTAINERS = self.etm_parms['max_concurrent_containers']
+        SLEEP_TIME=self.etm_parms['sleep_time']
 
         print(f' {year_to_process} <= {end_year}:')
         while year_to_process <= end_year:
-            print('sleeping for 30 .... ')
-            time.sleep(30)
+            print(f'sleeping for {SLEEP_TIME} .... ')
+            time.sleep(SLEEP_TIME)
 
             mem_avail = return_available_memory()
             cpu_load = return_cpu_load()
@@ -120,6 +121,12 @@ class Etm:
                 self._start_etm(str(year_to_process), product) ### start mosaic container
                 print("starting year", year_to_process)
                 year_to_process = year_to_process + 1
+            #END While
+
+
+# ============================================================
+        print(f"EVENT LOOP COMPLETE Process Annuals - {product}")
+        self._start_etm('Annual', product) ### start mosaic container
 
 
 etm=Etm()
