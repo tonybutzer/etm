@@ -53,8 +53,8 @@ class Etm:
             self._event_loop(start_year, end_year, product)
 
     def _start_container(self, docker_image, docker_full_cmd, name):
-        container = self.client.containers.run(docker_image, docker_full_cmd, detach=True, auto_remove=True, name=name)
-        # container = self.client.containers.run(docker_image, docker_full_cmd, detach=True, name=name)
+        #container = self.client.containers.run(docker_image, docker_full_cmd, detach=True, auto_remove=True, name=name)
+        container = self.client.containers.run(docker_image, docker_full_cmd, detach=True, name=name)
         print ( "CONTAINER is ", container.name)
         return(container)
 

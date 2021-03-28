@@ -54,4 +54,9 @@ def command_line_runner():
 if __name__ == '__main__':
     _mkdir('log')
     log = log_make_logger('ET_MOSAIC')
-    command_line_runner()
+
+    try:
+        command_line_runner()
+    finally:
+        print('etm I DIED BADLY hope the log helps', flush=True)
+        log.shutdown()
